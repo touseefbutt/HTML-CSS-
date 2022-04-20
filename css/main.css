@@ -1,0 +1,146 @@
+* {
+font-family: Oswald, sans-serif;
+margin: 0px;
+padding: 0px;
+text-transform: uppercase ;
+}
+
+/* Navigation Bar */
+nav > a,ul{
+    list-style: none;
+    display: inline-block;
+    /* width: 50px; */
+    margin-left: 10px;
+    height:inherit;
+
+}
+
+
+nav{
+    height: 50px;
+    /* background-color: antiquewhite; */
+    /* border: 1px solid rebeccapurple; */
+    line-height: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#dropdown:hover{
+    background-color: lightgrey;
+}
+#dropdown-menu{
+    position: absolute;
+    display: none;
+    width: 100px;
+    left: 47px;
+    padding: 15px;
+    top: 50px;
+    background-color: lightgrey;
+}
+#dropdown:hover #dropdown-menu{
+    display: block;
+    z-index: 1;
+}
+#dropdown-menu > li > a:hover{
+    color: #fafafa;
+}
+#landing-img{
+    background-image: url("https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    height: 90vh;
+    background-size: cover;
+}
+#landing-txt{
+font-size: 5em;
+text-align: right;
+margin-right: 7%;
+}
+
+/* ===== Hover CSS ===== */
+#hover-container{
+    text-align: center;
+}
+
+#hover-txt-color:hover{
+    color: #624343;
+}
+#hover-txt-size:hover{
+    font-size: 10px;
+}
+#hover-txt-bg-color:hover{
+background-color: aliceblue;
+}
+#hover-txt-font-family:hover{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#hover-txt-decoration:hover{
+text-decoration:line-through;
+}
+img{
+    width: 20%;
+}
+#cat-img:hover{
+    filter: grayscale();
+}
+#pug-glasses:hover{
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
+#chihua:hover{
+    transform: scale(1.2);
+    transition: 3s ease;
+}
+/* ===== Form ===== */
+input {
+    display: block;
+    width: 100%; 
+}
+select{
+    display: block;
+    width: 50%;
+}
+/* form{
+    margin: 10px;
+} */
+button{
+    width: 30%;
+}
+#frm-container{
+    border: 1px solid #000;
+    border-radius: 4px;
+    /* width: fit-content; */
+    padding: 12px;
+    margin: 0 25%;
+}
+#submit-container{
+    text-align: right;
+}
+
+
+/* ===== PARALLAX ====== */
+.para{
+    background: url("https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") 100% fixed;
+}
+.parainner{
+    padding: 400px;
+}
+.h1-space{
+    margin: 400px;
+    color: #345777 !important;    
+
+}
+.h2-space, .h1-space{
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+
+/* =====  Multimedia ===== */
+#multimedia-container{
+    text-align: center;
+}
+#multimedia-container > *{
+    text-align: center;
+    margin: 20px 0px;
+}
